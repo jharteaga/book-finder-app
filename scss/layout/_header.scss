@@ -1,0 +1,20 @@
+.main-container__header {
+  max-width: 100%;
+  margin-top: 0.5em;
+
+  &__title {
+    color: $title-color;
+    font-weight: 800;
+    font-size: 90px;
+    font-family: $font-stack;
+    margin-bottom: 0;
+  }
+
+  &__description {
+    color: $description-color;
+    font-family: $font-stack;
+    font-weight: 600;
+    font-size: 50px;
+    margin: 0 auto;
+  }
+}

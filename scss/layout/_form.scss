@@ -1,0 +1,12 @@
+.main-container__form {
+  margin: 1em 0;
+
+  &__input {
+    width: 875px;
+    height: 75px;
+    border-radius: 50px;
+    font-size: 30px;
+    color: $placeholder-color;
+    text-align: center;
+  }
+}

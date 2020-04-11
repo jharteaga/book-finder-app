@@ -1,0 +1,16 @@
+.main-container__results {
+  margin-top: 4em;
+
+  &__book {
+    width: 353px;
+    height: 430px;
+    background-color: $border-book-cover;
+    padding: 24px;
+    border-radius: 15px;
+
+    &__cover {
+      width: 302px;
+      height: 372px;
+    }
+  }
+}
