@@ -22,5 +22,12 @@
     grid-template-columns: repeat(4, auto);
     row-gap: 75px;
     column-gap: 75px;
+
+    &__book__cover {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
   }
 }

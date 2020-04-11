@@ -13,13 +13,18 @@ async function searchBook(book) {
 
 //Add books into results container
 function createBook(books) {
+  console.log(books);
   let output = '';
   books.forEach((book) => {
     output += `
         <div class="main-container__results__book">
             <img
-            src="${book.volumeInfo.imageLinks.thumbnail}"
-            alt="book cover"
+            src="${
+              book.volumeInfo.imageLinks
+                ? book.volumeInfo.imageLinks.thumbnail
+                : ''
+            }"
+            alt="${book.volumeInfo.title}"
             class="main-container__results__book__cover"
             />
         </div>`;

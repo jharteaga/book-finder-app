@@ -28,6 +28,11 @@ body {
     grid-template-columns: repeat(4, auto);
     row-gap: 75px;
     column-gap: 75px; }
+    .main-container__results__book__cover {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center; }
 
 .main-container__header {
   max-width: 100%;
@@ -66,4 +71,6 @@ body {
     border-radius: 15px; }
     .main-container__results__book__cover {
       width: 302px;
-      height: 372px; }
+      height: 372px;
+      color: #fff;
+      font-size: 3rem; }
