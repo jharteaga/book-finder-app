@@ -1,0 +1,17 @@
+{
+  "name": "book-finder-app",
+  "version": "1.0.0",
+  "description": "Book finder App with Google Books API",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Jose Arteaga",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
