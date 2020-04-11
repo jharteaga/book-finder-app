@@ -4,7 +4,8 @@
   "description": "Book finder App with Google Books API",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist/"
   },
   "author": "Jose Arteaga",
   "license": "MIT",
