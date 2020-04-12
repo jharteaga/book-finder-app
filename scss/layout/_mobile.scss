@@ -1,0 +1,137 @@
+@media (max-width: 1660px) {
+  .main-container {
+    &__results {
+      display: grid;
+      grid-template-columns: repeat(3, auto);
+      row-gap: 50px;
+      column-gap: 50px;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .main-container {
+    &__results {
+      display: grid;
+      grid-template-columns: repeat(2, auto);
+      row-gap: 50px;
+      column-gap: 50px;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .main-container {
+    &__header {
+      &__title {
+        color: $title-color;
+        font-weight: 800;
+        font-size: 70px;
+        font-family: $font-stack;
+        margin-bottom: 0;
+      }
+
+      &__description {
+        color: $description-color;
+        font-family: $font-stack;
+        font-weight: 600;
+        font-size: 40px;
+        margin: 0 auto;
+      }
+    }
+
+    &__form {
+      margin: 1em 0;
+
+      &__input {
+        width: 550px;
+        height: 60px;
+        border-radius: 50px;
+        font-size: 28px;
+        color: $placeholder-color;
+        text-align: center;
+      }
+    }
+
+    &__results {
+      display: grid;
+      grid-template-columns: repeat(2, auto);
+      row-gap: 20px;
+      column-gap: 20px;
+
+      &__book {
+        width: 250px;
+        height: 320px;
+        background-color: $border-book-cover;
+        padding: 12px;
+        border-radius: 15px;
+
+        &__cover {
+          width: 225px;
+          height: 290px;
+          color: #fff;
+          font-size: 3rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .main-container {
+    &__header {
+      &__title {
+        color: $title-color;
+        font-weight: 800;
+        font-size: 50px;
+        font-family: $font-stack;
+        margin-bottom: 0;
+        text-align: center;
+      }
+
+      &__description {
+        color: $description-color;
+        font-family: $font-stack;
+        font-weight: 600;
+        font-size: 30px;
+        margin: 0 auto;
+        text-align: center;
+      }
+    }
+
+    &__form {
+      margin: 2em 0 -1.5em 0;
+
+      &__input {
+        width: 300px;
+        height: 50px;
+        border-radius: 50px;
+        font-size: 25px;
+        color: $placeholder-color;
+        text-align: center;
+      }
+    }
+
+    &__results {
+      display: grid;
+      grid-template-columns: repeat(1, auto);
+      row-gap: 20px;
+      column-gap: 20px;
+
+      &__book {
+        width: 250px;
+        height: 320px;
+        background-color: $border-book-cover;
+        padding: 12px;
+        border-radius: 15px;
+
+        &__cover {
+          width: 225px;
+          height: 290px;
+          color: #fff;
+          font-size: 3rem;
+        }
+      }
+    }
+  }
+}
